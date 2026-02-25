@@ -1,167 +1,169 @@
-# CyberQuest System Overview
+# Decision Forge AI – System Architecture Overview
 
 ## Purpose
 
-CyberQuest is an AI-driven cybersecurity awareness evaluation system designed to measure and improve phishing and social engineering detection across diverse professional environments.
+Decision Forge AI is a structured human risk simulation platform designed to evaluate and strengthen cybersecurity decision-making under adversarial conditions.
 
-The system combines structured assessment, dynamic profession-based personalization, controlled scoring, and reflective reinforcement within a research-aligned framework.
+The system models phishing, credential misuse, social engineering, and operational security dilemmas across diverse professional environments. It integrates controlled assessment, contextual personalization, and measurable performance analysis within a research-aligned evaluation framework.
 
 ---
 
 ## Architectural Philosophy
 
-CyberQuest operates using two integrated layers:
+Decision Forge AI operates through two integrated control layers:
 
-1. Dynamic Personalization Layer  
-2. Research Control Layer  
+1. Contextual Personalization Layer  
+2. Evaluation Integrity Layer  
 
-The Personalization Layer adapts scenario context to the participant’s selected profession.  
-The Research Control Layer enforces structural, scoring, and evaluation integrity.
+The Personalization Layer dynamically adapts scenario context to a participant’s selected profession or operational environment.
 
-This separation ensures realism without sacrificing experimental consistency.
+The Evaluation Integrity Layer enforces structural consistency, scoring invariance, anti-priming safeguards, and experimental control.
+
+This separation preserves realism while maintaining methodological rigor.
 
 ---
 
-## Core Flow Structure
+## Core Evaluation Flow
 
-CyberQuest follows a fixed three-phase sequence:
+Decision Forge AI follows a fixed three-phase sequence:
 
 1. Baseline Assessment  
-2. Storyline Training  
+2. Adversarial Simulation Phase  
 3. Reassessment  
 
-This sequence never changes.
+The sequence is invariant.  
+Structural reordering or bypassing of phases is not permitted.
 
-The system does not allow structural reordering or bypassing of phases unless the participant explicitly discontinues the session.
+This fixed progression ensures measurement consistency across sessions.
 
 ---
 
-## Profession-Based Personalization
+## Contextual Personalization
 
-At session start, participants enter their profession, role, or operational environment.
+At session initiation, participants provide their profession, role, or operational environment.
 
 Examples include:
 
-- Healthcare
-- Education
-- Finance
-- Retail
-- Government
-- Technology
-- Small Business
-- Other user-defined roles
+- Healthcare  
+- Education  
+- Finance  
+- Retail  
+- Government  
+- Technology  
+- Small Business  
+- Custom user-defined roles  
 
-Scenarios are dynamically generated to reflect real-world risks within the participant’s domain.
+Scenarios are dynamically framed to reflect realistic threat vectors within the participant’s domain.
 
-The system does not rely on a static predefined track list. Instead, it uses contextual intelligence to tailor scenario framing appropriately.
-
-Scoring rules remain identical across professions.
+While contextual framing varies, evaluation structure and scoring logic remain identical across tracks.
 
 ---
 
-## Assessment Model
+## Evaluation Model
 
-### Baseline (Pre-Test)
+### Baseline Assessment
 
-- 5 scenario-based questions  
-- 10 points per question  
+- 5 scenario-based decision prompts  
+- 10 points per prompt  
 - Maximum score: 50  
-- No feedback during assessment  
-- No priming or titled prompts  
+- No feedback during evaluation  
+- No priming language or titled cues  
 
-Purpose: Measure initial detection ability without influence.
+Purpose: Establish unassisted adversarial detection capability.
 
 ---
 
-### Storyline Training
+### Adversarial Simulation Phase
 
-- 10 profession-aligned scenarios  
+- 10 contextualized adversarial scenarios  
 - 10 points per scenario  
 - Maximum score: 100  
-- Immediate explanation and principle reinforcement  
+- Immediate explanatory reinforcement  
 
-Purpose: Deliver immersive, applied cybersecurity learning.
+Purpose: Reinforce disciplined reasoning, least-privilege alignment, and risk recognition under simulated pressure.
 
-Dynamic explanation is permitted during this phase, but scoring structure is fixed.
+Dynamic explanation is permitted during this phase. Scoring structure remains fixed.
 
 ---
 
-### Reassessment (Post-Test)
+### Reassessment
 
-- 5 scenario-based questions  
-- 10 points per question  
+- 5 scenario-based decision prompts  
+- 10 points per prompt  
 - Maximum score: 50  
-- Different from baseline  
+- Distinct from baseline  
 - Comparable difficulty  
-- No priming or titled prompts  
+- No priming language  
 
-Purpose: Measure learning transfer.
+Purpose: Measure knowledge transfer and behavioral improvement.
 
-Improvement is calculated as:
-
-Reassessment – Baseline
-
+Improvement Delta = Reassessment Score – Baseline Score  
 Range: -50 to +50
 
 ---
 
-## Scoring Engine
+## Behavioral Scoring Engine
 
-- Correct answer: 10 points  
-- Incorrect answer: 0 points  
+- Correct response: 10 points  
+- Incorrect response: 0 points  
 - No negative scoring  
 - No partial credit  
 
-The scoring structure is invariant across professions and sessions.
+The scoring framework is invariant across professions and sessions to preserve comparability.
 
 ---
 
-## Anti-Priming Safeguards
+## Anti-Priming Controls
 
-To preserve research validity:
+To maintain evaluation validity:
 
-- Baseline and reassessment questions are untitled.
-- No thematic hints are provided.
-- Feedback is withheld until assessment completion.
-- Topic categories are never revealed during assessment phases.
+- Baseline and reassessment prompts are untitled  
+- Topic categories are not revealed  
+- No thematic hints are provided  
+- Feedback is withheld during formal assessment phases  
+
+Dynamic interaction is limited to the simulation phase only.
 
 ---
 
 ## Session Discipline
 
-CyberQuest maintains structured progression.
+Decision Forge AI maintains structured progression control.
 
 The system:
 
-- Redirects off-topic responses.
-- Does not abandon assessment flow.
-- Only terminates session upon explicit user request.
+- Redirects off-topic responses  
+- Prevents structural deviation  
+- Maintains evaluation sequence integrity  
+- Terminates only upon explicit participant request  
 
 ---
 
 ## Reflection and Reinforcement
 
-Following reassessment, participants complete a structured reflection.
+Following reassessment, participants complete structured reflection.
 
-The system provides a personalized takeaway statement highlighting:
+The system provides a personalized synthesis highlighting:
 
-- Growth in risk recognition  
-- Improvement in decision-making  
-- Increased confidence  
-- Newly acquired awareness  
+- Improvement in adversarial detection  
+- Growth in disciplined response selection  
+- Increased confidence in risk evaluation  
+- Areas for continued reinforcement  
 
-This reinforces learning retention beyond raw scoring.
+This phase strengthens retention beyond quantitative scoring.
 
 ---
 
 ## Data Handling and Privacy
 
-CyberQuest:
+Decision Forge AI:
 
-- Does not store personal identifiers.
-- Does not retain cross-session memory.
-- Does not collect unnecessary demographic data within session.
-- Requires participants to self-record scores externally.
+- Does not store personal identifiers  
+- Does not retain cross-session memory  
+- Does not collect unnecessary demographic data  
+- Requires participants to self-record scores externally  
+
+Only anonymized summary metrics are documented outside the live environment.
 
 ---
 
@@ -169,4 +171,4 @@ CyberQuest:
 
 This repository documents system architecture, evaluation structure, and scoring methodology.
 
-Detailed prompt engineering logic, internal guardrails, and operational instruction sets are proprietary and not included in this repository.
+Detailed prompt engineering logic, internal guardrails, adversarial scenario design, and operational control instructions are proprietary and are not included in this repository.
