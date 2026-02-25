@@ -1,57 +1,131 @@
-# Methodology – CyberQuest Evaluation (v2)
+# CyberQuest Scoring Model
 
-## Purpose
-Evaluate whether a short, scenario-based chatbot experience improves phishing and social engineering detection in realistic contexts.
+## Overview
 
-## Study Design
-Pre/post design with an instructional intervention.
+CyberQuest uses a controlled three-phase evaluation structure:
 
-- Baseline quiz: 5 questions (10 points each; max 50)
-- Storyline mission: 10 scenes (10 points each; max 100)
-- Reassessment quiz: 5 questions (10 points each; max 50)
+1. Baseline Assessment (Pre-Test)
+2. Storyline Training Phase
+3. Reassessment (Post-Test)
 
-Baseline and reassessment use **different** question sets of comparable difficulty to reduce memorization effects and better measure learning transfer.
+Scenarios are dynamically tailored to the participant’s selected profession or role. However, scoring structure and assessment format remain consistent across all professions.
 
-## Participant Flow
-1. Participant completes baseline quiz (5 items).
-2. Participant completes the interactive storyline (10 scenes with feedback).
-3. Participant completes reassessment quiz (5 items).
-4. Participant records scores and submits feedback survey.
+---
 
-## Scoring
-- Correct response: 10 points
-- Incorrect response: 0 points
-- No partial credit (Version 1)
+## Scoring Rules
 
-Primary outcome metric:
-- Improvement Delta = Reassessment Score – Baseline Score (range: -50 to +50)
+Each scored question is worth:
 
-Secondary metrics (optional):
-- Baseline % and Reassessment %
-- Storyline % (engagement/progression indicator)
+- Correct answer: 10 points
+- Incorrect answer: 0 points
 
-## Content Variants
-Two storyline variants are available:
-- Healthcare Worker: “The Double Shift: A Hospital Cyber Crisis”
-- Student: “Campus Clickbait: The Cyber Semester”
+No partial credit.  
+No negative scoring.
 
-Each includes:
-- 5 baseline questions
-- 10 storyline scenes
-- 5 reassessment questions
-with consistent scoring rules.
+These rules never change across professions.
 
-## Data Collection
-Participants submit:
-- Baseline score (0–50)
-- Storyline score (0–100)
-- Reassessment score (0–50)
-- Optional confidence rating (1–5)
-- Brief qualitative reflection (what felt tricky, what they learned)
+---
 
-Raw conversation logs are not required for scoring and are not stored in the public repository.
+## Assessment Structure
 
-## Threats to Validity (Noted)
-- Small sample sizes can limit generalizability.
-- Participants may differ in prior cybersecurity exposure.
-- Differences in reading speed/device context may influence performance.
+### Baseline (Pre-Test)
+
+- 5 scenario-based questions
+- 10 points per question
+- Maximum score: 50
+- No feedback during baseline
+- No priming or titled questions
+- No explanation until completion
+
+Purpose: Measure initial cybersecurity detection ability.
+
+---
+
+### Storyline Training
+
+- 10 scenario-based interactions
+- 10 points per scenario
+- Maximum score: 100
+- Immediate feedback after each response
+- Dynamic explanation allowed
+- Profession-specific context
+
+Purpose: Provide immersive learning and reinforcement.
+
+---
+
+### Reassessment (Post-Test)
+
+- 5 scenario-based questions
+- 10 points per question
+- Maximum score: 50
+- Different questions from baseline
+- Comparable difficulty
+- No priming or titled questions
+- No feedback until completion
+
+Purpose: Measure learning transfer.
+
+---
+
+## Improvement Metric
+
+Improvement Delta = Reassessment Score – Baseline Score
+
+Range: -50 to +50
+
+Interpretation:
+
+- Positive value = Improvement
+- Zero = No measurable change
+- Negative value = Performance decrease
+
+---
+
+## Percentage Calculation
+
+Baseline % = (Baseline ÷ 50) × 100  
+Storyline % = (Storyline ÷ 100) × 100  
+Reassessment % = (Reassessment ÷ 50) × 100  
+
+---
+
+## Profession-Based Personalization
+
+Scenario content is dynamically tailored to the participant’s selected profession.
+
+Examples may include:
+- Healthcare
+- Education
+- Finance
+- Retail
+- Government
+- Technology
+- Small Business
+- Other user-defined roles
+
+While content varies by profession, scoring structure remains identical across tracks.
+
+---
+
+## Research Controls
+
+To preserve experimental integrity:
+
+- Baseline and reassessment are untitled and non-priming.
+- Feedback is withheld during assessments.
+- Scoring rules are fixed.
+- No adaptive retesting is used during evaluation.
+- Dynamic presentation is limited to the training phase.
+- Participants self-record scores externally.
+
+---
+
+## Data Handling
+
+CyberQuest does not store:
+- Personal identifiers
+- Cross-session memory
+- Participant score history
+
+All data collection occurs externally via structured participant reporting.
