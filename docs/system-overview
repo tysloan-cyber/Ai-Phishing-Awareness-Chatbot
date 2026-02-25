@@ -1,0 +1,172 @@
+# CyberQuest System Overview
+
+## Purpose
+
+CyberQuest is an AI-driven cybersecurity awareness evaluation system designed to measure and improve phishing and social engineering detection across diverse professional environments.
+
+The system combines structured assessment, dynamic profession-based personalization, controlled scoring, and reflective reinforcement within a research-aligned framework.
+
+---
+
+## Architectural Philosophy
+
+CyberQuest operates using two integrated layers:
+
+1. Dynamic Personalization Layer  
+2. Research Control Layer  
+
+The Personalization Layer adapts scenario context to the participant’s selected profession.  
+The Research Control Layer enforces structural, scoring, and evaluation integrity.
+
+This separation ensures realism without sacrificing experimental consistency.
+
+---
+
+## Core Flow Structure
+
+CyberQuest follows a fixed three-phase sequence:
+
+1. Baseline Assessment  
+2. Storyline Training  
+3. Reassessment  
+
+This sequence never changes.
+
+The system does not allow structural reordering or bypassing of phases unless the participant explicitly discontinues the session.
+
+---
+
+## Profession-Based Personalization
+
+At session start, participants enter their profession, role, or operational environment.
+
+Examples include:
+
+- Healthcare
+- Education
+- Finance
+- Retail
+- Government
+- Technology
+- Small Business
+- Other user-defined roles
+
+Scenarios are dynamically generated to reflect real-world risks within the participant’s domain.
+
+The system does not rely on a static predefined track list. Instead, it uses contextual intelligence to tailor scenario framing appropriately.
+
+Scoring rules remain identical across professions.
+
+---
+
+## Assessment Model
+
+### Baseline (Pre-Test)
+
+- 5 scenario-based questions  
+- 10 points per question  
+- Maximum score: 50  
+- No feedback during assessment  
+- No priming or titled prompts  
+
+Purpose: Measure initial detection ability without influence.
+
+---
+
+### Storyline Training
+
+- 10 profession-aligned scenarios  
+- 10 points per scenario  
+- Maximum score: 100  
+- Immediate explanation and principle reinforcement  
+
+Purpose: Deliver immersive, applied cybersecurity learning.
+
+Dynamic explanation is permitted during this phase, but scoring structure is fixed.
+
+---
+
+### Reassessment (Post-Test)
+
+- 5 scenario-based questions  
+- 10 points per question  
+- Maximum score: 50  
+- Different from baseline  
+- Comparable difficulty  
+- No priming or titled prompts  
+
+Purpose: Measure learning transfer.
+
+Improvement is calculated as:
+
+Reassessment – Baseline
+
+Range: -50 to +50
+
+---
+
+## Scoring Engine
+
+- Correct answer: 10 points  
+- Incorrect answer: 0 points  
+- No negative scoring  
+- No partial credit  
+
+The scoring structure is invariant across professions and sessions.
+
+---
+
+## Anti-Priming Safeguards
+
+To preserve research validity:
+
+- Baseline and reassessment questions are untitled.
+- No thematic hints are provided.
+- Feedback is withheld until assessment completion.
+- Topic categories are never revealed during assessment phases.
+
+---
+
+## Session Discipline
+
+CyberQuest maintains structured progression.
+
+The system:
+
+- Redirects off-topic responses.
+- Does not abandon assessment flow.
+- Only terminates session upon explicit user request.
+
+---
+
+## Reflection and Reinforcement
+
+Following reassessment, participants complete a structured reflection.
+
+The system provides a personalized takeaway statement highlighting:
+
+- Growth in risk recognition  
+- Improvement in decision-making  
+- Increased confidence  
+- Newly acquired awareness  
+
+This reinforces learning retention beyond raw scoring.
+
+---
+
+## Data Handling and Privacy
+
+CyberQuest:
+
+- Does not store personal identifiers.
+- Does not retain cross-session memory.
+- Does not collect unnecessary demographic data within session.
+- Requires participants to self-record scores externally.
+
+---
+
+## Intellectual Property Notice
+
+This repository documents system architecture, evaluation structure, and scoring methodology.
+
+Detailed prompt engineering logic, internal guardrails, and operational instruction sets are proprietary and not included in this repository.
