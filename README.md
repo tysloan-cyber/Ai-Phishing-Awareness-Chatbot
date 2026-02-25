@@ -39,7 +39,7 @@ Raw participant data is not stored in this repository.
 ---
 ## Access CyberQuest
 
-CyberQuest is currently delivered via: **[Custom GPT / ChatGPT session]**.
+CyberQuest is currently delivered via: **Custom GPT / ChatGPT session**.
 
 - Participant entry: use the Launch Script in `docs/`
 - Score recording: use `survey/participant-form.md` and the scoreboard template
