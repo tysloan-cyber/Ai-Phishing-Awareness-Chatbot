@@ -35,3 +35,13 @@ The chatbot integrates:
 Participants complete the chatbot interaction and submit structured feedback via approved survey mechanisms.
 
 Raw participant data is not stored in this repository.
+
+---
+## Access CyberQuest
+
+CyberQuest is currently delivered via: **[Custom GPT / ChatGPT session]**.
+
+- Participant entry: use the Launch Script in `docs/`
+- Score recording: use `survey/participant-form.md` and the scoreboard template
+
+**Chatbot link:** https://chatgpt.com/g/g-691254b07b7c81918556d236fc8e54ec-the-cybersecurity-game-mystery-storyline
