@@ -1,131 +1,126 @@
-# CyberQuest Scoring Model
+## Behavioral Evaluation Framework
 
-## Overview
+Decision Forge AI employs a controlled three-phase evaluation structure designed to measure cybersecurity decision quality and learning transfer under adversarial conditions.
 
-CyberQuest uses a controlled three-phase evaluation structure:
+### Evaluation Phases
 
-1. Baseline Assessment (Pre-Test)
-2. Storyline Training Phase
-3. Reassessment (Post-Test)
+1. Baseline Assessment (Pre-Evaluation)  
+2. Adversarial Simulation Phase  
+3. Reassessment (Post-Evaluation)
 
-Scenarios are dynamically tailored to the participant’s selected profession or role. However, scoring structure and assessment format remain consistent across all professions.
+Scenario content is dynamically tailored to the participant’s selected profession or role. However, scoring logic and evaluation structure remain consistent across all professional contexts to preserve methodological integrity.
 
 ---
 
-## Scoring Rules
+## Scoring Model
 
-Each scored question is worth:
+Each scored scenario is evaluated using a fixed binary structure:
 
-- Correct answer: 10 points
-- Incorrect answer: 0 points
+- Correct response: 10 points  
+- Incorrect response: 0 points  
+- No partial credit  
+- No negative scoring  
 
-No partial credit.  
-No negative scoring.
-
-These rules never change across professions.
+Scoring parameters remain constant across professions and evaluation phases.
 
 ---
 
 ## Assessment Structure
 
-### Baseline (Pre-Test)
+### Baseline Assessment
 
-- 5 scenario-based questions
-- 10 points per question
-- Maximum score: 50
-- No feedback during baseline
-- No priming or titled questions
-- No explanation until completion
+- 5 scenario-based questions  
+- 10 points per question  
+- Maximum score: 50  
+- No feedback provided during evaluation  
+- No priming language or titled cues  
+- No explanation until completion  
 
-Purpose: Measure initial cybersecurity detection ability.
-
----
-
-### Storyline Training
-
-- 10 scenario-based interactions
-- 10 points per scenario
-- Maximum score: 100
-- Immediate feedback after each response
-- Dynamic explanation allowed
-- Profession-specific context
-
-Purpose: Provide immersive learning and reinforcement.
+Purpose: Measure initial adversarial detection and decision capability.
 
 ---
 
-### Reassessment (Post-Test)
+### Adversarial Simulation Phase
 
-- 5 scenario-based questions
-- 10 points per question
-- Maximum score: 50
-- Different questions from baseline
-- Comparable difficulty
-- No priming or titled questions
-- No feedback until completion
+- 10 scenario-based interactions  
+- 10 points per scenario  
+- Maximum score: 100  
+- Immediate contextual feedback after each response  
+- Profession-specific contextualization  
+- Structured explanation permitted  
 
-Purpose: Measure learning transfer.
+Purpose: Reinforce defensive reasoning and least-privilege decision alignment.
 
 ---
 
-## Improvement Metric
+### Reassessment
 
-Improvement Delta = Reassessment Score – Baseline Score
+- 5 scenario-based questions  
+- 10 points per question  
+- Maximum score: 50  
+- Distinct from baseline scenarios  
+- Comparable difficulty level  
+- No feedback until completion  
+
+Purpose: Measure knowledge transfer and behavioral improvement.
+
+---
+
+## Performance Delta Analysis
+
+Improvement Delta = Reassessment Score – Baseline Score  
 
 Range: -50 to +50
 
 Interpretation:
 
-- Positive value = Improvement
-- Zero = No measurable change
-- Negative value = Performance decrease
+- Positive value: measurable improvement  
+- Zero: no measurable change  
+- Negative value: performance decrease  
 
----
+Percentage calculations:
 
-## Percentage Calculation
-
-Baseline % = (Baseline ÷ 50) × 100  
-Storyline % = (Storyline ÷ 100) × 100  
-Reassessment % = (Reassessment ÷ 50) × 100  
+- Baseline % = (Baseline ÷ 50) × 100  
+- Simulation % = (Simulation ÷ 100) × 100  
+- Reassessment % = (Reassessment ÷ 50) × 100  
 
 ---
 
 ## Profession-Based Personalization
 
-Scenario content is dynamically tailored to the participant’s selected profession.
+Scenario content is dynamically contextualized to the participant’s selected role, including but not limited to:
 
-Examples may include:
-- Healthcare
-- Education
-- Finance
-- Retail
-- Government
-- Technology
-- Small Business
-- Other user-defined roles
+- Healthcare  
+- Education  
+- Finance  
+- Retail  
+- Government  
+- Technology  
+- Small Business  
 
-While content varies by profession, scoring structure remains identical across tracks.
+Scoring logic remains identical across all tracks to preserve experimental consistency.
 
 ---
 
 ## Research Controls
 
-To preserve experimental integrity:
+To maintain evaluation integrity:
 
-- Baseline and reassessment are untitled and non-priming.
-- Feedback is withheld during assessments.
-- Scoring rules are fixed.
-- No adaptive retesting is used during evaluation.
-- Dynamic presentation is limited to the training phase.
-- Participants self-record scores externally.
+- Baseline and reassessment phases are non-primed and untitled  
+- Feedback is withheld during formal assessments  
+- Scoring parameters are fixed  
+- No adaptive retesting occurs during evaluation  
+- Dynamic interaction is restricted to the simulation phase  
+- Participants self-record scores externally  
 
 ---
 
 ## Data Handling
 
-CyberQuest does not store:
-- Personal identifiers
-- Cross-session memory
-- Participant score history
+Decision Forge AI does not store:
 
-All data collection occurs externally via structured participant reporting.
+- Personal identifiers  
+- Cross-session memory  
+- Participant score history  
+
+All data collection occurs externally via structured participant reporting mechanisms.
