@@ -1,0 +1,13 @@
+# CyberQuest Architecture
+
+## High-Level Flow
+
+flowchart TD
+    A[Participant enters profession/role] --> B[Personalization Layer<br/>Contextualizes scenarios to profession]
+    B --> C[Assessment Engine<br/>Baseline 5]
+    C --> D[Training Engine<br/>Storyline 10 + explanations]
+    D --> E[Assessment Engine<br/>Reassessment 5]
+    E --> F[Scoring Engine<br/>10 points correct, 0 incorrect]
+    F --> G[Metrics<br/>Baseline, Storyline, Reassessment, Delta]
+    G --> H[Reflection Engine<br/>Confidence + takeaway]
+    H --> I[Participant records results externally]
