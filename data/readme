@@ -1,0 +1,13 @@
+# Data
+
+This repository does not store raw participant data.
+
+## What is collected (externally)
+- Baseline score (0–50)
+- Storyline score (0–100)
+- Reassessment score (0–50)
+- Confidence (1–5)
+- Optional qualitative reflection
+
+## What may be published here
+- Aggregated, anonymized summaries only (e.g., averages, distributions)
