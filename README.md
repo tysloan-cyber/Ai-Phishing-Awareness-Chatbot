@@ -1,47 +1,54 @@
-# AI Phishing Awareness Chatbot
+# Decision Forge AI
+AI-Driven Human Risk Simulation Platform for Cybersecurity Decision Intelligence
+
+---
 
 ## Overview
 
-This project documents the design and evaluation of an AI-driven cybersecurity awareness chatbot focused on identifying phishing and social engineering attacks.
+Decision Forge AI is a structured simulation platform designed to evaluate and strengthen cybersecurity decision-making under adversarial conditions.
 
-The chatbot integrates:
-- Interactive scenario-based learning
-- Participant scoring mechanism
-- Behavioral awareness measurement
-- Structured feedback collection
+The system models realistic scenarios including phishing attempts, credential misuse, social engineering interactions, and operational security dilemmas. Participants are assessed on risk recognition, containment discipline, and adaptive reasoning through structured branching logic and controlled feedback mechanisms.
+
+Core Components:
+- Scenario-based adversarial simulation
+- Behavioral decision scoring framework
+- Baseline and post-interaction performance measurement
+- Governance-aligned feedback reinforcement
 
 ---
 
 ## Research Objectives
 
-- Evaluate AI-assisted phishing awareness training effectiveness
-- Measure pre- and post-interaction scoring improvements
-- Collect structured participant feedback
+- Evaluate the effectiveness of AI-assisted human risk simulation
+- Measure pre- and post-interaction decision quality
+- Assess behavioral improvements in adversarial awareness
+- Explore structured approaches to AI-enabled cybersecurity training
 
 ---
 
 ## Repository Structure
 
-- `/docs` – Research documentation and methodology
-- `/chatbot` – Prompt design and logic structure
-- `/scoring` – Scoring framework and evaluation model
-- `/survey` – Participant survey structure
-- `/data` – (Not public) anonymized data summaries only
+- `/docs` – Research documentation, methodology, and launch protocols
+- `/simulation` – Scenario design and decision logic framework
+- `/scoring` – Behavioral scoring and evaluation model
+- `/survey` – Structured participant feedback instruments
+- `/data` – (Not public) anonymized summary metrics only
 
 ---
 
-## Participation
+## Data Handling
 
-Participants complete the chatbot interaction and submit structured feedback via approved survey mechanisms.
-
-Raw participant data is not stored in this repository.
+No raw participant data is stored in this repository.  
+Only anonymized summary metrics are documented for research transparency.
 
 ---
-## Access CyberQuest
 
-CyberQuest is currently delivered via: **Custom GPT / ChatGPT session**.
+## Platform Access
 
-- Participant entry: use the Launch Script in `docs/`
-- Score recording: use `survey/participant-form.md` and the scoreboard template
+Decision Forge AI is currently delivered via a custom GPT deployment within ChatGPT.
 
-**Chatbot link:** https://chatgpt.com/g/g-691254b07b7c81918556d236fc8e54ec-decision-forge-ai
+- Participant entry: Launch script located in `/docs`
+- Score recording: Structured evaluation templates located in `/survey`
+
+Platform link:
+https://chatgpt.com/g/g-691254b07b7c81918556d236fc8e54ec-decision-forge-ai
